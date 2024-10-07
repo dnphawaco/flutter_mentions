@@ -444,6 +444,7 @@ class FlutterMentionsState extends State<FlutterMentions> {
           },
         ),
         child: Row(
+          crossAxisAlignment: CrossAxisAlignment.end,
           children: [
             ...widget.leading,
             Expanded(
