@@ -459,6 +459,7 @@ class FlutterMentionsState extends State<FlutterMentions> {
                 style: widget.style,
                 textAlign: widget.textAlign,
                 textDirection: widget.textDirection,
+                textAlignVertical: TextAlignVertical.bottom,
                 readOnly: widget.readOnly,
                 showCursor: widget.showCursor,
                 autofocus: widget.autofocus,
